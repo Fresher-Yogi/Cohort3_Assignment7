@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Intercative Task Manager Application </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="theme">
+
+    <section class="top">
+        <nav>
+            <h1> Intercative Task Manager Application </h1>
+            <button id="themebtn"> Theme: <span> White </span> </button>
+            <button id="showform" class=".btn"> Create Task </button>
+        </nav>
+    </section>
+
+
+    <section class="main">
+
+        <div class="tasks">
+
+            <div class="task">
+
+                <div class="taskinfo">
+                    <h3> Task Title </h3>
+                    <h3> Category </h3>
+                    <p> Description about task </p>
+                </div>
+
+                <div class="taskbtns">
+                    <button id="edit"> Edit Task </button>
+                    <button id="delete"> Delete Task </button>
+                    <button id="complete"> Complete Task </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="form">
+
+        <button type="button" id="closebtn">X</button>
+        <form action="">
+            <h1> Create Task </h1>
+            <input type="text" name="" required id="taskTitle" placeholder="Enter the Task Title">
+            <select name="" id="taskcategory" required>
+                <option value=""> Select the Category </option>
+                <option value="finance"> Finance Task </option>
+                <option value="family"> Important Family Task </option>
+                <option value="meeting"> Mettings </option>
+                <option value="project"> Urgent Projects </option>
+            </select>
+            <input type="text" id="description" required placeholder="Some Info About the Task">
+            <button type="submit" id="createtask"> Create Task </button>
+        </form>
+
+    </section>
+
+
+    <section>
+        <h1 id="head"> Completed Task </h1>
+        <div class="completedtasks">
+            <!-- <div class="completedtask">
+
+                    <div class="completedtaskinfo">
+                        <h3> tasktitle </h3>
+                        <h3> taskcategory </h3>
+                        <p> description </p>
+                    </div>
+
+                    <div class="completedtaskbtns">
+                        <button onclick='completetask()' id="complete"> Completed ✅ </button>
+                    </div>
+
+                </div> -->
+        </div>
+
+    </section>
+
+
+
+
+    <!-- // Event Bubbling
+
+    Event Bubbling :- the default behaviour of Javascript , which activated, when we click any child element in the
+    HTML, this click create bubles OR runs toward the its parent-> gradparent-> document (till document)
+
+        <div class="grandparent">
+            <div class="parent">
+                <button class="child"> This is child </button>
+            </div>
+        </div> 
+        -->
+
+
+        <!-- Event Propagation  -->
+
+        <!-- <form id='EP' action="">
+            <input type="text" name="" id="" placeholder="enter your name">
+            <input type="text" name="" id="" placeholder="age">
+            <input type="text" name="" id="" placeholder="email">
+
+            <input type="submit" value="Submit">
+        </form>
+ -->
+
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
