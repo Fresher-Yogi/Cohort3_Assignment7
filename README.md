@@ -16,6 +16,9 @@ Interactive User Dashboard
  Event Capturing and Event Bubbling phases explanation with example.
  Created Theme toggle option in User Dashboard.
 
+## Flow/Diagram 
+
+<img width="2108" height="3984" alt="diagram" src="https://github.com/user-attachments/assets/c723fdb3-f59d-420a-9d80-ae19eaf38598" />
 
 
  ## Some Important Topic/Terms Explanation 
